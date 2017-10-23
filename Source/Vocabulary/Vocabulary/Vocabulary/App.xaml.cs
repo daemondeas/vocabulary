@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 
 namespace Vocabulary
 {
@@ -13,7 +8,7 @@ namespace Vocabulary
 		{
 			InitializeComponent();
 
-			MainPage = new Vocabulary.MainPage();
+			MainPage = new MainPage();
 		}
 
 		protected override void OnStart ()
